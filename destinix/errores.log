@@ -1,0 +1,6 @@
+[09-Jun-2025 01:44:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\destinix\estado.php:49
+Stack trace:
+#0 C:\xampp\htdocs\destinix\estado.php(49): mysqli_stmt->execute()
+#1 C:\xampp\htdocs\destinix\estado.php(99): EstadoModel->insertEstado('asdasd')
+#2 {main}
+  thrown in C:\xampp\htdocs\destinix\estado.php on line 49
